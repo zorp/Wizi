@@ -1,0 +1,524 @@
+/*GENERAL LINK STUFF
+A:link { color: #736E72; text-decoration:underline; }
+A:visited { color: #736E72; text-decoration:underline; }
+A:hover { color: #736E72; text-decoration:underline; }
+A:active { color: #736E72; text-decoration:underline; }
+END GENERAL LINK STUFF*/
+
+BODY
+{
+	color:#3a4a4d;
+ font-family:verdana,sans-serif;
+ font-size:10px;
+}
+
+TD
+{
+	color:#3a4a4d;
+	font-family:verdana,sans-serif;
+	font-size:10px;
+}
+
+.header
+{
+	color: #FF6000; /*was before:: color: #57696e;*/
+ font-family: Trebuchet MS;verdana,sans-serif;
+ font-size: 20px;
+ padding-left: 0px;
+}
+
+.header2
+{
+	color:#FF6000;
+	font-family:verdana,sans-serif;
+ font-size:35;
+ font-weight : bold;
+}
+
+.header3 /*used for cms login form*/
+{
+	color:#707070;
+ font-family: Trebuchet MS;verdana,sans-serif;
+ font-size: 20px;
+ padding-left: 0px;
+}
+
+.small_header
+{
+    color:#57696e;
+    font-family:verdana,sans-serif;
+    font-size:11px;
+    font-weight : bold;
+    padding-left : 10px;
+}
+
+.tabelText
+{
+  color:#736E72;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+		padding-left :10px;
+		font-weight : bold;
+  text-decoration: none;
+}
+a.redlink
+{
+  color:#CC001A;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+  text-decoration: none;
+}
+a:visited.redlink
+{
+	color:#CC001A;
+}
+a.greenlink
+{
+  color:green;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+  text-decoration: none;
+}
+a:visited.greenlink
+{
+	color:green;
+}
+a.orangelink
+{
+  color:orange;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+  text-decoration: none;
+}
+a:visited.orangelink
+{
+	color:orange;
+}
+a.links
+{
+	color: #736E72; text-decoration:underline;
+}
+
+.plainText
+{
+    color:#000000;
+    font-family:verdana,sans-serif;
+		font-weight:normal;
+    font-size:11px;
+}
+
+.alert_message
+{
+  color:#CC0000;
+  font-family:verdana,sans-serif;
+  font-size:12px;
+	font-weight:bold;
+	padding-left : 10;
+  padding-top : 5;
+}
+
+.save_message
+{
+  color:#6CB46E;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight:normal;
+	padding-left : 10;
+}
+
+/* STYLE DEFINITIONS FOR FANEBLADE */
+.faneblad_selected
+{
+ cursor:pointer;
+ color:#FFFFFF;
+ font-family:verdana,sans-serif;
+ font-size:11px;
+	font-weight : bold;
+	background-color : #FF6000;/* #819399;*/
+	padding-top : 0;
+}
+
+.faneblad_unselected
+{
+ cursor:pointer;
+ color:#000;
+ font-family:verdana,sans-serif;
+ font-size:11px;
+	background-color : #fff; /*#9fb4bf;*/
+	padding-top : 0;
+	border-top: 1px solid #99A914;
+	border-bottom: 1px solid #99A914;
+}
+
+.faneblad_unselected:hover
+{
+ cursor:pointer;
+	background-color: #000000; 
+}
+/* END FANEBLADE STYLES  */
+
+/* STYLE DEFINITIONS FOR BUTTONS */
+.knap
+{
+  color:#FFFFFF;
+  background: url(../graphics/button_back.png) no-repeat;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+	padding-bottom: 5px;
+	width : 95px;
+	height: 25px;
+	border: none;
+}
+
+.knapred{
+    margin:0 7px 0 0;
+      background-color:#CC001A;
+    border:1px solid #dedede;
+    border-top:1px solid #999999;
+    border-left:1px solid #999999;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size:11px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+
+.knapgreen, input.knapgreen{
+    margin:0 7px 0 0;
+      background-color:green;
+    border:1px solid #dedede;
+    border-top:1px solid #999999;
+    border-left:1px solid #999999;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size:11px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+
+.knaporange{
+    margin:0 7px 0 0;
+      background-color:orange;
+    border:1px solid #dedede;
+    border-top:1px solid #999999;
+    border-left:1px solid #999999;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size:11px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+
+
+/*.knapred
+{
+  color:#FFFFFF;
+  background-color:#CC001A;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+	width : 75px;
+}
+.knapgreen
+{
+  color:#FFFFFF;
+  background-color:green;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+	width : 75px;
+}
+.knaporange
+{
+  color:#FFFFFF;
+  background-color:orange;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+	width : 75px;
+}
+*/
+.medium_knap
+{
+  color:#FFFFFF;
+  background-color: #2A4657;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+	width : 100px;
+}
+
+.stor_knap
+{
+  color:#FFFFFF;
+  background-color: #2A4657;
+  font-family:verdana,sans-serif;
+  font-size:11px;
+	font-weight : bold;
+	width : 125px;
+}
+
+/* END STYLING BUTTONS  */
+
+.top_nav_link
+{
+	color:#738109;
+ font-family:verdana,sans-serif;
+	font-size : 12px;
+	text-decoration : none;
+}
+
+a:hover.top_nav_link
+{
+	color:#333333;
+	text-decoration : none;
+}
+
+.top_nav_link_on
+{
+	color:#000000;
+ font-family: verdana,sans-serif;
+	font-size : 12px;
+	font-weight:bold;
+	text-decoration : none;
+}
+
+a:hover.top_nav_link_on
+{
+	color:#000000;
+	text-decoration : none;
+}
+
+.tree_nav_link
+{
+	color:#738109;
+  font-family:verdana,sans-serif;
+	font-size : 12px;
+	font-weight:normal;
+	text-decoration : none;
+}
+
+a:hover.tree_nav_link
+{
+	color:#333333;
+	text-decoration : none;
+}
+
+.tree_nav_link_on
+{
+	color:#3a4a4d;
+	background-color:#FFFFFF;
+ font-family: verdana,sans-serif;
+	font-size : 12px;
+	font-weight:bold;
+	text-decoration : none;
+}
+
+a:hover.tree_nav_link_on
+{
+	color:#3a4a4d;
+	text-decoration : none;
+}
+
+.tdborder_content
+{
+/*	 border-top:1px solid #819399;
+	 border-right:1px solid #819399;
+	 border-left:1px solid #819399;
+	 border-bottom:1px solid #819399;*/
+	 	min-height: 350px;
+}
+
+.content_body
+{
+	margin: 40px;
+	margin-top:30px;
+	color:#3a4a4d;
+ font-family:verdana,sans-serif;
+ font-size:10px;
+	background-color:#FFFFFF;
+
+}
+
+.tdpadtext
+{
+	font-family: Verdana,sans-serif;
+	font-size:11px;
+	font-weight: bold;
+ padding-left : 10;
+ padding-top : 5;
+ }
+
+ .tdText
+{
+	font-family:verdana,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+  padding-left : 12;
+}
+
+.tablebg_color
+{
+	background : #FFF0A4;
+	background-color : #FFF0A4;
+	height : 225px;
+}
+
+/* STYLE DEFINITIONS FOR THE TREE STRUCTURE /// ADMIN */
+
+.nodeName{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#000000; }
+.nodeName:link{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#000000; }
+.nodeName:active{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#000000; }
+.nodeName:visited{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#000000; }
+.nodeName:hover{text-decoration: underline;}
+
+.nodeName{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#cdcdcd; }
+.nodeName_gray{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#cdcdcd; }
+.nodeName_gray:link{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#cdcdcd; }
+.nodeName_gray:active{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#cdcdcd; }
+.nodeName_gray:visited{font-family:verdana,sans-serif;font-size:11px;text-decoration:none;color:#cdcdcd; }
+.nodeName_gray:hover{text-decoration: underline;}
+
+.textfield{font-family:verdana,sans-serif;font-size:12px;color:#000000; }
+.hide{ visibility:hidden; }
+/* END TREE STRUCTURE STYLE */
+
+/* STYLE DEFINITIONS FOR INPUT FIELDS /// EVERYWHERE NEEDED */
+.input
+{
+    color:#3a4a4d;
+    font-family:verdana,sans-serif;
+    font-size:11px;
+		width: 300px;
+}
+.textfield
+{
+    color:#3a4a4d;
+    font-family:verdana,sans-serif;
+    font-size:11px;
+		width: 150px;
+}
+
+/* END INPUT STYLE  */
+
+/* STYLE DEFINITIONS FOR SELECT FIELDS /// EVERYWHERE  NEEDED*/
+.select_list
+{
+	width : 210px;
+	font-family:verdana,sans-serif;
+  font-size:11px;
+}
+
+.select_list_small
+{
+	width : 110px;
+	font-family:verdana,sans-serif;
+  font-size:11px;
+}
+
+/* END SELECT FIELDS STYLE */
+
+/* Main Colors used for tables */
+
+.color1
+{
+	/*background : #E9EBE5;
+	background-color : #E9EBE5;
+	---------------------------
+	background : #EBEDEF;
+	background-color : #EBEDEF;*/
+	background : #F9FAEF;
+	background-color : #F9FAEF;
+}
+.color2
+{
+	background : #ACBAC0;
+	background-color : #ACBAC0;
+}
+.color3 /* This style is used for the top frame, making the fading blue background color */
+{
+	background-image : url("../graphics/new_layout/fading_td_bg.gif");
+}
+
+.color4 /* This style is used for the top frame, making the green background color */
+{
+	background: #fff url("../graphics/header-back.png") repeat-x top right;
+}
+
+.color5 /* This style is used for the top frame, making the green background color */
+{
+	background: #fff url("../graphics/header-back.png") repeat-x top left;
+}
+
+.color6 /* This style is used for the bottom frame, making the background color */
+{
+	background-color: #fff;
+	color:#738109;
+}
+
+/*End Main Colors used for tables */
+
+/* STYLE DEFINITIONS FOR BOTTOM FRAME  */
+
+.bottom_frame_text{
+	font-family: verdana,sans-serif;
+	font-size : 10;
+	color :#B8B8B8;
+	padding-top : 3px;
+}
+
+/*End BOTTOM FRAME Styling*/
+
+/* STYLE DEFINITIONS FOR HELP SECTION  */
+
+.cellStyle{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight: bold;
+	padding-left : 10px;
+	padding-right : 25px;
+	padding-bottom : 5px; 
+}
+/*End HELP Styling*/
+
+
+/* Home & Administration pages style */
+
+table td.intropage {color:#6A760F;}
+table.systeminfo td {color:#57600B;}
+
+.titl {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color:#495009;
+	line-height: 20px;
+}
+
+hr.intropage {
+border: none;
+height: 1px;
+background: transparent url(../graphics/dottedline.png) top left;
+width: 600px;
+float:left;
+}
+
+* html hr {margin-top: 13px; }
+
+/* END Home & Administration pages style*/
+
+

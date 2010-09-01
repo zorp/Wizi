@@ -1,0 +1,29 @@
+/* DOC TREE */
+#doctree ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#doctree li a{
+	cursor:pointer;
+	color:#000;
+	text-decoration:none;
+}
+
+#doctree li{
+	clear:both;
+}
+.treefunc{
+	visibility:hidden;
+	float:left;
+	padding-top:4px;
+}
+.treefunc img{
+	padding-left:2px;
+}
+#doctree li a.nodemoving{
+	color:#fff;
+	background-color:#CC0000;
+	padding:2px;
+}
+/* DOC TREE */

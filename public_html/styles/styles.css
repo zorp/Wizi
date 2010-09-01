@@ -1,0 +1,104 @@
+	/*
+	*******************************************
+	*                                         *
+	* CSS FOR WIZI                            *
+	*                                         *
+	* By Rasmus Frey <frey@verk.dk>           *
+	*                                         *
+	*******************************************
+	**/
+	body, html {margin:0px;padding:0px;height:auto;}
+	body {text-align:center;background: url(../graphics/bgimg.gif) repeat center top;}
+	
+	#container {
+	position:relative;
+	overflow:hidden;
+	width:908px;
+	height:auto;
+	margin: 0 auto;
+	text-align:left;
+	margin-top:25px;
+	margin-bottom:25px;
+	}
+	
+	#header{
+	height:118px;
+	/*overflow:hidden;*/
+	background: url(../graphics/headerbg.png) no-repeat center top;
+	}
+	#header h1{
+	margin-top:15px;
+	margin-left:15px;
+	font-size:200%;
+	color:#996600;
+	}
+	#header a{}
+	
+	#navigation {display:inline;float:right;margin-top:52px;width:500px;margin-right: 20px;}
+	#navigation ul { float:right; }
+	#navigation ul li{ display:inline; float:left; }
+	#navigation ul li.home a.active {background:url(../graphics/menu/mainmenu_01_o.gif) no-repeat left top;	}	
+	#navigation ul li.home a {background:none;display:block;height:30px;width:80px;}
+	#navigation ul li.home a.active img { display:none; }
+	#navigation ul li a {  }
+	#navigation ul li a img{ border:none; margin-right:5px;  }
+	
+	#breadcrumb {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px 0px 0px 28px;
+	padding:0;
+	}
+	#breadcrumb p { color:#98856F; font-size:10px; }
+	#breadcrumb p a { color:#98856F; font-size:10px; }
+	
+	#middlebox{
+	width:900px;
+	float:left;
+	position:relative;
+	background:#fff;
+	height:auto;
+
+	overflow:hidden;
+	min-height:300px;
+	margin: 0px 0px 0px 4px;
+	}
+	#content {
+	padding: 15px 25px;
+	}
+	#content p { }
+	#content h1 {
+	color:#e08f35;
+	font-size: 28px;
+	font-weight: bold;
+	}
+	#content h2 { color:#e08f35; font-size: 16px;}
+	
+	#content h2 a { color:#e08f35; font-size: 16px;}
+	
+	#content img { border:0px;}
+	
+	#content a:hover {color:#e08f35; text-decoration:none;}
+	#content a:visited {color:#e08f35; text-decoration:none;}
+	#content a:active {color:#e08f35; text-decoration:none;}
+	#content a:link {color:#e08f35; text-decoration:none;}
+	
+	#tablebg {background: url(../graphics/tablebg.gif) repeat left top;width: 270px;}
+	#tablebg td img {float:left; padding:0px 15px 0px 0px; }
+	
+	form {}
+	form input {background:#d2c8bc; border:none; height:21px;width:225px;}
+	form input.submit_button_field {width:67px; float:right; background:#98856f; color:#d2c8bc; font-weight:bold; height:24px; border:solid 1px #d2c8bc;}
+	
+	#footer{
+	clear:both;
+	width:auto;
+	height:50px;
+	overflow:hidden;
+	border-top:1px solid #ccc;
+	}
+	
+/*	special layout stuff*/
+
+	#conform {background: url(../graphics/tablebg.gif) repeat left top; width:270px; float:left; display:inline;}
+	#conform div{background: #FFFFFF; width:230px; margin:10px auto; padding:10px;}
+	#conform div.one { margin-top:10px; }

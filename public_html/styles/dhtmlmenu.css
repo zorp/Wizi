@@ -1,0 +1,63 @@
+.clT,.clTover,.clS,.clSover {
+	position: absolute;
+	overflow: hidden;
+	width: 130;
+	height: 20;
+	cursor: pointer;
+	cursor: hand;
+	font-family: verdana,arial,helvetica;
+}
+
+.clT,.clTover,.clS,.clSover {
+	padding: 2px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.clT {
+	color:#FFFFFF;
+	background-color:#8BCC34;
+	layer-background-color:#8BCC34;
+}
+
+.clTover {
+	color:#FFFFFF;
+	background-color:#8BCC34;
+	layer-background-color:#8BCC34;
+}
+
+.clS {
+	color:#FFFFFF;
+	background-color:#8BCC34;
+	layer-background-color:#8BCC34;
+}
+
+.clSover {
+	color:#FFFFFF;
+}
+
+.clSover,.clB {
+	layer-background-color:#8BCC34;
+	background-color:#8BCC34;
+}
+
+.clB {
+	position:absolute;
+	visibility:hidden;
+	z-index:300
+}
+
+.clB2 {
+	position:absolute;
+	visibility:hidden;
+	z-index:300;
+	layer-background-color:transparent;
+	background-color:transparent;
+}
+
+.clBar {
+	position:absolute;
+	width:10;
+	height:10; 
+	visibility:hidden;
+}

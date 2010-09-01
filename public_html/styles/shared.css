@@ -1,0 +1,55 @@
+/*
+*******************************************************
+* THIS STYLE SHEET IS ALSO USED IN BACKEND,           *
+* TO REFLECT THE STYLES IN FRONTEND.                  *
+*                                                     *
+* PLEASE DO NOT USE THIS FILE TO ADD STYLES,          *
+* YOU ARE ONLY ALLOWED TO CHANGE THE EXISTING STYLES. *
+*******************************************************
+*/
+
+body {	
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:small;
+	color:#000000;
+}
+
+* html body {
+	font-size:xx-small; /* for IE5/Win */
+	f\ont-size:x-small; /* for other IE versions */
+}
+
+td {	
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:small;
+	color:#000000;
+}
+
+* html td {
+	font-size:xx-small; /* for IE5/Win */
+	f\ont-size:x-small; /* for other IE versions */
+}
+
+/*GENERAL TEXT*/
+h1, .h1, H1 {
+	font-size:150%;
+	color:#6F9A0A;
+	margin:0px;
+	padding:0px;
+	margin-bottom:10px;
+}
+h2, .h2, .H2 {
+	font-size:130%;
+	color:#000;
+	margin:0px;
+	padding:0px;
+	margin-bottom:10px;
+}
+h3, .h3, .H3 {
+	font-size:120%;
+	color:#000;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+}
+/*END GENERAL TEXT*/

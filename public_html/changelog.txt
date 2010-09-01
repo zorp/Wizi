@@ -1,0 +1,73 @@
+LOG FILE FOR WIZI DEVELOPMENT
+
+08-09-2008 / 14:00 :: By Rasmus Frey
+					Replaced admin/documents/FCKeditor folder with a brand new and updated version, folder is now called admin/documents/fckeditor.
+					Added the folder admin/documents/filebrowsers where all link and image browsers for FckEditor is placed.
+					Edited admin/documents/edit.php to reflect new folder name for fckeditor.
+
+03-09-2008 / 16:50 :: By Rasmus Frey
+					Fixed bug with default value not being printed in form field of type text_field.
+					Fixed bug with not being able to clear values when a value first has been assigned to label etc.
+					Fixed bug with not being able to change field type when field has been created.
+
+					files changed: /admin/util/forms.php
+					files changed: /admin/forms/field.php
+
+25-07-2008 / 16:30 :: Fixing the document/media tree & editor :: By Haris Ferizovic 
+
+					files changed: /admin/style/style.css
+					files changed: /admin/documents/edit.php
+					files changed: /admin/tree/tree.php
+					files changed: /admin/mediatree/tree.php
+					files changed: /styles/shared.css
+					files changed: /admin/documents/FCKeditor/fckconfig.js
+					files changed: /admin/documents/FCKeditor/editor/skins/silver/fck_dialog.css
+					files changed: /admin/documents/FCKeditor/editor/skins/silver/fck_editor.css
+
+24-07-2008 / 18:20 :: Damn IE Fixes :: By Haris Ferizovic 
+
+					files changed: /admin/style/style.css
+					files changed: /admin/home/index.php
+					files changed: /admin/home/welcome.php
+					files changed: /admin/administration.php
+
+23-07-2008 / 18:20 :: Home & Administration :: By Haris Ferizovic 
+
+					files changed: /admin/style/style.css
+					files changed: /admin/index.php
+					files changed: /admin/nav.php
+					files changed: /admin/frameset2.php
+					files changed: /admin/tree_frames.php
+					files changed: /admin/graphics/company.png
+					files changed: /admin/home/index.php
+					files changed: /admin/home/welcome.php
+					new files: /graphics/largeicons/...	
+					new files: /graphics/dottedline.png
+					new files: /admin/administration.php
+
+22-07-2008 / 17:30 :: Frames & buttons redesigned :: By Haris Ferizovic
+
+					files changed: /admin/style/style.css
+					files changed: /admin/log_content.php
+					files changed: /admin/index.php
+					files changed: /admin/treemenu.php
+					files changed: /admin/nav.php
+					files changed: /admin/bottom.php
+					files changed: /admin/frameset2.php
+					files changed: /admin/tree_frames.php
+					files changed: /admin/mediatree/import.php
+					files changed: /admin/mediatree/importnav.php
+					files changed: /admin/graphics/horisontal_button/...
+					new files: /admin/graphics/header-back.png
+
+21-07-2008 / 15:30 :: Login redesigned :: By Haris Ferizovic
+
+					files changed: /admin/style/style.css (.header & .knap class)
+					files changed: /admin/log_content.php (all)
+					new files: /admin/graphics/adminlogin-back.png
+					new files: /admin/graphics/button_back.png
+					new files: /admin/graphics/button_back_green.png
+					new files: /admin/graphics/button_back_red.png
+					new files: /admin/graphics/button_back_yellow.png
+
+18-07-2008 / 17:10 :: Wizi development server setup :: By Rasmus Frey
