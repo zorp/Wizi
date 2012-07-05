@@ -53,7 +53,7 @@ if( $submited )
 function makeDBA($dbname,$password,$hostname,$user,$prefix,$rootpath="/")
 {
 		$dbFileName = "admin/util/dba.php";
-    $media_lib  = "media";
+    	$media_lib  = "media";
 		$formdata_lib = "admin/forms/formdata";
 		$import_lib = "import/images";
 		

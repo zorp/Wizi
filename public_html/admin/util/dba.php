@@ -30,7 +30,7 @@
         var $prefix;
 
 
-function dba( $db ="devwizi",$host="localhost",$user="root",$password="root",$prefix="wizi_",$rootpath="/")
+function dba( $db ="wizi",$host="localhost",$user="root",$password="1234",$prefix="wizi_",$rootpath="/")
 {
 		$this->host = $host;
 		$this->user= $user;

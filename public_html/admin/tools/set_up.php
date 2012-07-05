@@ -565,7 +565,7 @@
     $sql = "CREATE TABLE
                 ".$prefix."stats
             (
-                timestamp         TIMESTAMP(14),
+                timestamp         TIMESTAMP,
                 sessid            VARCHAR(200) NOT NULL,
                 ip                VARCHAR(50),
                 referer           VARCHAR(200),
@@ -588,7 +588,7 @@
 							id int(11) default NULL,
 							unique_visits int(11) default NULL,
 							visits int(11) default NULL,
-							last_visit timestamp(14) NOT NULL
+							last_visit timestamp NOT NULL
 						)";
 		$dba->exec( $sql );
     $status.=$prefix."permanent_stats table created<br>";
